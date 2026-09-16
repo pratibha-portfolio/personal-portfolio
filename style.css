@@ -1,0 +1,424 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f1f5f9;
+}
+/*header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #1d4ed8;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+header h1{
+    margin: 0;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+/*Home section*/
+.home{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+.home-text{
+    max-width: 500px;
+}
+.home-text h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.home-text h3{
+    font-size: 24px;
+    color: #1d4ed8;
+}
+.home-text p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+/*profile card*/
+.profile-card{
+    width: 230px;
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+.profile-circle{
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    border-radius: 50%;
+    background: #dbeafe;
+    overflow: hidden;
+}
+.profile-circle img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+.profile-card h3{
+    margin-top: 20px;
+    font-size: 22px;
+}
+.profile-card{
+    color: #555;
+}
+.home-text button{
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #1d4ed8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* About section*/
+.about{
+    padding: 70px 20px;
+    background: white;
+    text-align: center;
+}
+.about h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+
+}
+.about p{
+    max-width: 700px;
+    margin: 10px auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+/*Education section*/
+.education{
+    padding: 70px 20px;
+    text-align: center;
+}
+.education h2{
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+.education-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.education-card{
+    width: 220px;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+.education-card h3{
+    font-size: 22px;
+}
+.education-card p{
+    line-height: 1.5;
+}
+/*skills section*/
+.skills{
+    padding: 70px 20px;
+    background: white;
+    text-align: center;
+}
+.skills h2{
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+.skills-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.skill-card{
+    width: 220px;
+    padding: 25px;
+    background: #f1f5f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+.skill-card h3{
+    font-size: 24px;
+}
+.skill-card p{
+    line-height: 1.5;
+}
+/*Project section*/
+.project{
+    padding: 70px 20px;
+    text-align: center;
+}
+.project h2{
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+.projects-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.project-card{
+    width: 220px;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+.project-card h3{
+    font-size: 21px;
+}
+.project-card p{
+    line-height: 1.5;
+}
+.project-card button{
+    margin-top: 10px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background: #1d4ed8;
+    color: white;
+    cursor: pointer;
+}
+.project-card img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 15px;
+}
+/*contact section*/
+.Contact{
+    padding: 70px 20px;
+    background: white;
+    text-align: center;
+}
+.Contact h2{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.Contact form{
+    max-width: 500px;
+    margin: auto;
+}
+.Contact input,
+.Contact textarea{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.Contact textarea{
+    height: 120px;
+    resize: vertical;
+}
+.Contact button{
+    margin-top: 10px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #1d4ed8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*hover Effect*/
+.education-card,
+.skill-card,
+.project-card{
+    transition: 0.3s;
+}
+.education-card:hover,
+.skill-card:hover,
+.project-card:hover{
+    transform: translateY(-10px);
+}
+.home-text button,
+.project-card button,
+.Contact button{
+    transition: 0.3s;
+}
+.home-text button:hover,
+.project-card button:hover,
+.Contact button:hover{
+    transform: scale(1.05);
+}
+/*mobile Responsive Desing*/
+@media (max-width:600px){
+    header{
+        flex-direction: column;
+        padding: 20px;
+    }
+    nav{
+        margin-top: 15px;
+    }
+    nav a{
+        margin: 0 7px;
+        font-size: 14px;
+    }
+    .profile-card{
+        width: 75%;
+    }
+    .home{
+        gap: 30px;
+    }
+    .home-text h2{
+        font-size: 30px;
+    }
+    .home-text h3{
+        font-size: 20px;
+    }
+    .home-text p{
+        font-size: 16px;
+    }
+    .education-card,
+    .skill-card,
+    .project-card{
+        width: 80%;
+    }
+}
+/*footer section*/
+footer{
+    padding: 25px 12px;
+    background: #1d4ed8;
+    color: white;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+}
+footer p{
+    margin: 8px 0;
+    font-size: 15px;
+}
+/*skill progress Bar*/
+.progress{
+    width: 100%;
+    height: 22px;
+    background: #e2e8f0;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.progress-bar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+}
+.html-bar{
+    width: 90%;
+    background: #f97316;
+}
+.css-bar{
+    width: 80%;
+    background: #2563eb;
+}
+.js-bar{
+    width: 60%;
+    background: #eab308;
+}
+/*theme Button*/
+.theme-button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background: white;
+    color: #1d4ed8;
+    cursor: pointer;
+}
+/*Dark Mode*/
+body.dark-mode{
+    background: #0f172a;
+    color: white;
+}
+body.dark-mode .about,
+body.dark-mode .skills,
+body.dark-mode .Contact,
+body.dark-mode .project-card,
+body.dark-mode .education-card,
+body.dark-mode .profile-card{
+    background: #1e293b;
+    color: white;
+}
+body.dark-mode .skills .skill-card{
+    background: #334155;
+}
+body.dark-mode .about p,
+body.dark-mode .profile-card p{
+    color: #334155;
+}
+body.dark-mode .theme-button{
+    background: #334155;
+    color: white;
+}
+body.dard-mode .project-card p{
+    background: #334155;
+}
+/*navigation hover effect*/
+nav a{
+    position: relative;
+    transition: 0.3s;
+}
+nav a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0%;
+    display: block;
+    height: 3px;
+    background: white;
+    transition: 0.3s;
+}
+nav a:hover::after{
+    width: 100%;
+}
+nav a:hover{
+    color: #dbeafe;
+}
+#scrollTopBtn{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    display: block;
+    z-index: 9999;
+}
+#scrollTopBtn:hover{
+    background-color: #0056b3;
+}
