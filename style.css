@@ -309,8 +309,6 @@ footer{
     background: #1d4ed8;
     color: white;
     text-align: center;
-    position: sticky;
-    bottom: 0;
 }
 footer p{
     margin: 8px 0;
